@@ -33,7 +33,7 @@ public class Main
   }
 
   // implement the other quadratic formula here
-  public statuc double negq(double a, double b, double c) {
+  public static double negq(double a, double b, double c) {
     double disc = Math.sqrt(b * b - 4 * a * c);
     return (-b + disc) / (2 * a);
   }
